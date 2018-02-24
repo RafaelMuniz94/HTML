@@ -1,8 +1,8 @@
-#Grandes Receitas
+# Grandes Receitas
 
-*Home
-*Receitas
-*Sugestões
+* Home
+* Receitas
+* Sugestões
 
 
 **Fonte:**.[tudogostoso.com.br](http://www.tudogostoso.com.br/)
