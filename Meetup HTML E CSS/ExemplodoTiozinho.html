@@ -7,26 +7,107 @@
 
 <style type="text/css">
   
+/* 
+
+  body{
+    margin: 0;
+    padding: 0;
+    left: 0;
+  }
+
+ *{
+    margin: 0;
+    padding: 0;
+    left: 0;
+  }
+
+  
+
+h2 {
+  padding: 10px 0 10px 0;
+  margin: 20px 0 20px 0;
+}
+
   h3 {
     color: #f442e8;
-    padding: 123;
+    padding: 0px;
 
   }
 
 
   p{
     color: green;
-    padding: 20;
+    padding: 20px;
 
   }
 
-  li{
-    color: yellow;
-  }
+    li:hover {
+      text-decoration: underline;
+    color: darkred;
+   }
 
-  #teste{
+
+   ul li:first-child{
     color: blue;
+   }
+
+   ol li:last-child{
+    color: silver;
+   }
+
+  .menu li{
+    color: orange; 
+    display: inline;
+    padding-left: 20px; 
   }
+
+  a{
+    text-decoration: none;
+  }
+
+
+*/
+
+html, body, h1, h2, h3, p, ol, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+body {
+  padding: 20px 20px 20px 20px;
+}
+h1 {
+  margin: 10px 0 15px 0;
+}
+h2 {
+  margin: 10px 0 20px 0;
+}
+h3 {
+  margin: 15px 0 15px 0;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 3px;
+}
+ul {
+  padding: 0 0 0 50px;
+}
+ul li {
+  font-size: 24px;
+  
+}
+ol {
+  padding: 0 0 0 50px;
+}
+.menu {
+  padding-left: 0;
+  display: inline;
+}
+.menu a {
+  color: #000af;
+}
+.menu li {
+  display: inline;
+}
+
 
 </style>
 
@@ -36,9 +117,9 @@
 <body>
   <h1>Grandes Receitas</h1>
 
-  <ul id="teste">
+  <ul class="menu">
     <li><a href="home.html">Home</a></li>
-    <li><a href="receitas.html">Receitas</a></li>
+    <li><a href="receitas2.html">Receitas</a></li>
     <li><a href="sugestoes.html">Sugestões</a></li>
   </ul>
 
